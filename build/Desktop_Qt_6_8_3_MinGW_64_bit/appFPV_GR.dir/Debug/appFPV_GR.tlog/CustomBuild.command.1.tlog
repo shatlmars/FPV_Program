@@ -1,0 +1,78 @@
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MINGW_64_BIT\CMAKEFILES\2C40451D02F1FB8811AF8A3C26C08DA6\QT6APPFPV_GR_METATYPES.JSON.GEN.RULE
+setlocal
+C:\Qt\6.8.3\mingw_64\bin\moc.exe -o C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/meta_types/qt6appfpv_gr_metatypes.json.gen --collect-json @C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/meta_types/appFPV_GR_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_if_different C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/meta_types/qt6appfpv_gr_metatypes.json.gen C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/meta_types/qt6appfpv_gr_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MINGW_64_BIT\CMAKEFILES\C3C0A001A0DE6CED9D4576FB7F65EA67\APPFPV_GR_QMLTYPEREGISTRATIONS.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/mingw_64/bin/qmltyperegistrar.exe --generate-qmltypes=C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/FPV_GR/appFPV_GR.qmltypes --import-name=FPV_GR --major-version=254 --minor-version=254 @C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/qmltypes/appFPV_GR_foreign_types.txt -o C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/appfpv_gr_qmltyperegistrations.cpp C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/meta_types/qt6appfpv_gr_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/qmltypes/appFPV_GR.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MINGW_64_BIT\CMAKEFILES\2127AF8E18A072A39F8DE97DD3DCE3F2\QRC_QMAKE_FPV_GR.CPP.RULE
+setlocal
+C:\Qt\6.8.3\mingw_64\bin\rcc.exe --output C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/qrc_qmake_FPV_GR.cpp --name qmake_FPV_GR C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/qmake_FPV_GR.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MINGW_64_BIT\CMAKEFILES\70FC65B217D366E567B498F30E0C7BD2\APPFPV_GR_QMLCACHE_LOADER.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/mingw_64/bin/qmlcachegen.exe --resource-name qmlcache_appFPV_GR -o C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.rcc/qmlcache/appFPV_GR_qmlcache_loader.cpp @C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.rcc/qmlcache/appFPV_GR_qml_loader_file_list.rsp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MINGW_64_BIT\CMAKEFILES\70FC65B217D366E567B498F30E0C7BD2\APPFPV_GR_MAIN_QML.CPP.RULE
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/FPV_GR/Main.qml -I C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit -I C:/Qt/6.8.3/mingw_64/qml -i C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/FPV_GR/qmldir --resource C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/qmake_FPV_GR.qrc --resource C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/appFPV_GR_raw_qml_0.qrc --dump-aot-stats --module-id=FPV_GR(appFPV_GR) -o C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.rcc/qmlcache/appFPV_GR_Main_qml.cpp C:/FPV_GR/Main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MINGW_64_BIT\CMAKEFILES\2127AF8E18A072A39F8DE97DD3DCE3F2\QRC_APPFPV_GR_RAW_QML_0.CPP.RULE
+setlocal
+C:\Qt\6.8.3\mingw_64\bin\rcc.exe --output C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/qrc_appFPV_GR_raw_qml_0.cpp --name appFPV_GR_raw_qml_0 C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/appFPV_GR_raw_qml_0.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\CMAKELISTS.TXT
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/FPV_GR -BC:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit --check-stamp-file C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

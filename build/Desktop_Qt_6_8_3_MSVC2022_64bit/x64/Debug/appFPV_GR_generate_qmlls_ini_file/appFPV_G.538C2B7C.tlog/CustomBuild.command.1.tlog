@@ -1,0 +1,38 @@
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MSVC2022_64BIT\CMAKEFILES\F453006D8E776782FBB82200BB65EBE9\.QMLLS.INI.RULE
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E echo [General] > C:/FPV_GR/.qmlls.ini
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E echo buildDir=\"C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit\" >> C:/FPV_GR/.qmlls.ini
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E echo no-cmake-calls=false >> C:/FPV_GR/.qmlls.ini
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E echo_append docDir= >> C:/FPV_GR/.qmlls.ini
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qtpaths.exe --query QT_INSTALL_DOCS >> C:/FPV_GR/.qmlls.ini
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E echo importPaths=\"C:/Qt/6.8.3/msvc2022_64/qml\" >> C:/FPV_GR/.qmlls.ini
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MSVC2022_64BIT\CMAKEFILES\3321B9E34ED10782E1F61D94EFE00EC3\APPFPV_GR_GENERATE_QMLLS_INI_FILE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\CMAKELISTS.TXT
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/FPV_GR -BC:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit --check-stamp-file C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

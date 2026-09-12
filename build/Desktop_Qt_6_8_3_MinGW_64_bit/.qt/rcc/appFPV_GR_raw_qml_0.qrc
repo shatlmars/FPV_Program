@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/FPV_GR/">
+    <file alias="Main.qml">C:/FPV_GR/Main.qml</file>
+  </qresource>
+</RCC>
+

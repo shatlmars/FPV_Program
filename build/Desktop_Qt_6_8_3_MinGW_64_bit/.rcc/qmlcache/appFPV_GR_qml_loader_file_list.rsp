@@ -1,0 +1,5 @@
+--resource
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/qmake_FPV_GR.qrc
+--resource
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/appFPV_GR_raw_qml_0.qrc
+/qt/qml/FPV_GR/Main.qml

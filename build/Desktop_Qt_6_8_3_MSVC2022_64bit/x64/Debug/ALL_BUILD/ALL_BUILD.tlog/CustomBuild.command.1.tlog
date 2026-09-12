@@ -1,0 +1,10 @@
+^C:\FPV_GR\CMAKELISTS.TXT
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/FPV_GR -BC:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit --check-stamp-file C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

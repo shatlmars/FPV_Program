@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\FPV_GR\build\Desktop_Qt_6_8_3_MinGW_64_bit\CMakeFiles\034ff98dd1e7d9bf467e4af316dc7c2d\appFPV_GR_res.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FPV_GR\build\Desktop_Qt_6_8_3_MinGW_64_bit\CMakeFiles\78e7714235f59880eb98a292446d1aab\appFPV_GR_copy_res.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\FPV_GR\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\FPV_GR\build\Desktop_Qt_6_8_3_MinGW_64_bit\CMakeFiles\appFPV_GR_copy_res" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6867B1D5-5F68-3E67-81F7-EB364E50F108}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

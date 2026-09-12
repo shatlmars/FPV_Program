@@ -1,0 +1,14 @@
+-rootPath
+C:/FPV_GR
+-cmake-output
+-output-file
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/qml_imports/appFPV_GR_build.cmake
+-importPath
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/FPV_GR
+-importPath
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit
+-importPath
+C:/Qt/6.8.3/mingw_64/qml
+-qrcFiles
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/qmake_FPV_GR.qrc
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/.qt/rcc/appFPV_GR_raw_qml_0.qrc

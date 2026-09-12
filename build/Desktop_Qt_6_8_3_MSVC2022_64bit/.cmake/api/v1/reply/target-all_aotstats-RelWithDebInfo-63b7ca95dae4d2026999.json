@@ -1,0 +1,117 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_deferred_aotstats_setup"
+		],
+		"files" : 
+		[
+			"C:/Qt/6.8.3/msvc2022_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"C:/Qt/6.8.3/msvc2022_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1105:EVAL",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1212,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "module_appFPV_GR_aotstats_target::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+	"name" : "all_aotstats",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/all_aotstats",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/3321b9e34ed10782e1f61d94efe00ec3/all_aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/5e7114746b91043d052a775e44481455/all_aotstats.aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/5e7114746b91043d052a775e44481455/module_appFPV_GR.aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/00f00acc542ad284dc44b606415b95ba/Main_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/d4cd5fd5bc08a5e190ebf8564c84429a/appfpv_gr_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

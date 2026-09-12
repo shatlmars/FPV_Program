@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_appFPV_GR_FILE C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/Release/appFPV_GR.exe)
+set(__QT_DEPLOY_TARGET_appFPV_GR_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appFPV_GR_RUNTIME_DLLS C:/Qt/6.8.3/msvc2022_64/bin/Qt6Quick.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6Multimedia.dll;C:/vcpkg/installed/x64-windows/bin/SDL2.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6QmlMeta.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6QmlWorkerScript.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6QmlModels.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6Qml.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6OpenGL.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6Network.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6Gui.dll;C:/Qt/6.8.3/msvc2022_64/bin/Qt6Core.dll)

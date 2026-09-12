@@ -1,0 +1,14 @@
+--bare
+-I
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit
+-I
+C:/Qt/6.8.3/msvc2022_64/qml
+--resource
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/.qt/rcc/qmake_FPV_GR.qrc
+--resource
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/.qt/rcc/appFPV_GR_raw_qml_0.qrc
+--resource
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/.qt/rcc/appFPV_GR_raw_qml_0_extra_qmldirs.qrc
+C:/FPV_GR/qml/Main.qml
+--json
+C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/appFPV_GR_qmllint.json

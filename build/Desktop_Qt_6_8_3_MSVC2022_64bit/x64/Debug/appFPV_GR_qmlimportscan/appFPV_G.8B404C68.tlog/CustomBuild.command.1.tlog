@@ -1,0 +1,32 @@
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MSVC2022_64BIT\CMAKEFILES\B9F319CA8A92FBE59416D4D4C03FF1FE\APPFPV_GR_BUILD.CMAKE.RULE
+setlocal
+cd C:\FPV_GR
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+call C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlimportscanner.exe @C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/.qt/qml_imports/appFPV_GR_build.rsp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MSVC2022_64BIT\CMAKEFILES\3321B9E34ED10782E1F61D94EFE00EC3\APPFPV_GR_QMLIMPORTSCAN.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FPV_GR\CMAKELISTS.TXT
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/FPV_GR -BC:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit --check-stamp-file C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
