@@ -1,4 +1,0 @@
-module FPV_GR
-typeinfo appFPV_GR.qmltypes
-prefer :/qt/qml/FPV_GR/
-

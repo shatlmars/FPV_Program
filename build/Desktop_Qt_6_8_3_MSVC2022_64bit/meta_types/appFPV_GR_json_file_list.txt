@@ -1,2 +1,0 @@
-C:/FPV_Program/build/Desktop_Qt_6_8_3_MSVC2022_64bit/appFPV_GR_autogen/include_Debug/EF6STBLNGN/moc_videoplayerManager.cpp.json
-C:/FPV_Program/build/Desktop_Qt_6_8_3_MSVC2022_64bit/appFPV_GR_autogen/include_Debug/N6NEUYDKNB/moc_gamepadmanager.cpp.json
