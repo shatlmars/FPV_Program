@@ -1,4 +1,4 @@
-C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/appFPV_GR_autogen/include_Debug/N6NEUYDKNB/moc_gamepadmanager.cpp: C:/FPV_GR/gamepad/gamepadmanager.h \
+C:/FPV_Program/build/Desktop_Qt_6_8_3_MSVC2022_64bit/appFPV_GR_autogen/include_Debug/N6NEUYDKNB/moc_gamepadmanager.cpp: C:/FPV_Program/gamepad/gamepadmanager.h \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QDebug \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QObject \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QString \

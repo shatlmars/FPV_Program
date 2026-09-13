@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/">
-    <file alias="/qt/qml/FPV_GR">C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/FPV_GR</file>
+    <file alias="/qt/qml/FPV_GR">C:/FPV_Program/build/Desktop_Qt_6_8_3_MSVC2022_64bit/FPV_GR</file>
 
   </qresource>
 </RCC>

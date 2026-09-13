@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/FPV_GR">
-    <file alias="qmldir">C:/FPV_GR/build/Desktop_Qt_6_8_3_MinGW_64_bit/FPV_GR/qmldir</file>
-  </qresource>
-</RCC>
-

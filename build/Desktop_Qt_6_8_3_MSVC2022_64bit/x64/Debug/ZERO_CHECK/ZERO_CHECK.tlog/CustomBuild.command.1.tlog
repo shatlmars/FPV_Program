@@ -1,6 +1,6 @@
-^C:\FPV_GR\BUILD\DESKTOP_QT_6_8_3_MSVC2022_64BIT\CMAKEFILES\3321B9E34ED10782E1F61D94EFE00EC3\GENERATE.STAMP.RULE
+^C:\FPV_PROGRAM\BUILD\DESKTOP_QT_6_8_3_MSVC2022_64BIT\CMAKEFILES\DBEAB52E3CA6E29EC8C89A739887B8B7\GENERATE.STAMP.RULE
 setlocal
-C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/FPV_GR -BC:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/FPV_GR/build/Desktop_Qt_6_8_3_MSVC2022_64bit/FPV_GR.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/FPV_Program -BC:/FPV_Program/build/Desktop_Qt_6_8_3_MSVC2022_64bit --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/FPV_Program/build/Desktop_Qt_6_8_3_MSVC2022_64bit/FPV_GR.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

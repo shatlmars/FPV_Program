@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

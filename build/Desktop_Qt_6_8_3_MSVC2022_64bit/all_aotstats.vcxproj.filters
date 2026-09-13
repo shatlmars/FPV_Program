@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\CMakeFiles\5e7114746b91043d052a775e44481455\all_aotstats.aotstats.rule">
+    <CustomBuild Include="C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\CMakeFiles\36b38bd9361fbaa7d83e5277b5ecd0b6\all_aotstats.aotstats.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\CMakeFiles\3321b9e34ed10782e1f61d94efe00ec3\all_aotstats.rule">
+    <CustomBuild Include="C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\CMakeFiles\dbeab52e3ca6e29ec8c89a739887b8b7\all_aotstats.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\FPV_GR\CMakeLists.txt" />
+    <CustomBuild Include="C:\FPV_Program\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\CMakeFiles\all_aotstats" />
+    <None Include="C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\CMakeFiles\all_aotstats" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{0809AA6D-4A51-38DE-8673-70C30C5A6182}</UniqueIdentifier>
+      <UniqueIdentifier>{253DB0DA-D43C-36D2-AE31-05C62860F244}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

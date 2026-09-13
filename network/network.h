@@ -1,2 +1,0 @@
-#include <QObject>
-#include <QUdpSocket>

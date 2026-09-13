@@ -2,25 +2,25 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_copy_qml</FullPath>
+      <FullPath>C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_copy_qml</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_copy_res</FullPath>
+      <FullPath>C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_copy_res</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_generate_qmlls_ini_file</FullPath>
+      <FullPath>C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_generate_qmlls_ini_file</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_qmlimportscan</FullPath>
+      <FullPath>C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_qmlimportscan</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_autogen</FullPath>
+      <FullPath>C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_autogen</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\FPV_GR\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_automoc_json_extraction</FullPath>
+      <FullPath>C:\FPV_Program\build\Desktop_Qt_6_8_3_MSVC2022_64bit\x64\Debug\appFPV_GR_automoc_json_extraction</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
